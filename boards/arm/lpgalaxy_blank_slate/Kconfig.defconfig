@@ -1,13 +1,23 @@
 # Copyright (c) 2020 Pete Johanson
 # SPDX-License-Identifier: MIT
 
-if BOARD_LPGALAXY_BLANK_SLATE
-
-config BOARD
-	default "lpgalaxy_blank_slate"
+if BOARD_SSK_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Blank Slate"
+	default "SSK FYP"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if BOARD_SSK_LEFT || BOARD_SSK_RIGHT
+
+config BOARD
+	default "ssk"
+
+config ZMK_SPLIT
+	default y
 
 if USB
 
@@ -28,4 +38,4 @@ config ZMK_BLE
 config ZMK_USB
 	default y
 
-endif # BOARD_LPGALAXY_BLANK_SLATE
+endif # BOARD_SSK_LEFT || BOARD_SSK_RIGHT

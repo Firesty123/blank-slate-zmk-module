@@ -17,4 +17,11 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-board: [ "lpgalaxy_blank_slate" ]
+board: [ "ssk" ]
+sheild: ["ssk_left", "ssk_right"]
+
+include:
+  - board: ssk
+    sheild: ssk_left
+  - board: ssk
+    sheild: ssk_right
