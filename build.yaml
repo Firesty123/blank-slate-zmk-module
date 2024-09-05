@@ -17,8 +17,5 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-include:
-  - board: ssk
-    sheild: ssk_left
-  - board: ssk
-    sheild: ssk_right
+board: [ "ssk" ]
+shield: [ "ssk_left", "ssk_right" ]
