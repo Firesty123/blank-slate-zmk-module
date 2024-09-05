@@ -17,5 +17,4 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-board: [ "ssk" ]
-shield: [ "ssk_left", "ssk_right" ]
+board: [ "ssk_left","ssk_right" ]
