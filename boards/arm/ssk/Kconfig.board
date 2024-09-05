@@ -6,9 +6,7 @@
 config BOARD_SSK_LEFT
     bool "SSK Left Board"
     depends on SOC_NRF52833_QIAA
-    select BOARD_SSK_LEFT
 
 config BOARD_SSK_RIGHT
     bool "SSK Right Board"
     depends on SOC_NRF52833_QIAA
-    select BOARD_SSK_RIGHT
