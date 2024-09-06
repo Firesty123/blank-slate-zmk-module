@@ -11,8 +11,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 /{
-    model = "Smart Split Keyboard"
-    compatible = "ssk"
+    model = "Smart Split Keyboard";
+    compatible = "ssk";
 
     chosen{
         zephyr,code-partition = &code_partition;
