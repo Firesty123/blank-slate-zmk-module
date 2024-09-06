@@ -17,6 +17,3 @@ supported:
   - gpio
   - i2c
   - spi
-  - kscan
-  - can
-  - counter
