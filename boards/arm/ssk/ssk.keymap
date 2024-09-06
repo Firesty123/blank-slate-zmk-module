@@ -7,9 +7,10 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 /{
-    keymap{
+    keymap {
         compatible = "zmk,keymap";
 
         default_layer{
@@ -27,7 +28,7 @@
             >;
         };
 
-        lower_layer{
+        lower_layer {
             display-name = "NUMBER";
 // -------------------------------------------------------------------------------------------
 // | BTCRL| BT1 | BT2 | BT3 | BT4 | BT5 | GUI |   | GUI |     |     |     |     |     | BKSP |
@@ -42,7 +43,7 @@
             >;
         };
 
-        raise_layer{
+        raise_layer {
             display-name = "SYMBOL";
 // -------------------------------------------------------------------------------------------
 // |  ESC |  !  |  @  |  #  |  $  |  %  |     |   |     |  ^  |  &  |  *  |  (  |  )  | BKSP |
