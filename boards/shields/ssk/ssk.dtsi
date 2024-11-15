@@ -6,7 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "position.dtsi"
+#include "ssk_position.dtsi"
 
 &ssk_layout {
     transform = <&default_transform>;

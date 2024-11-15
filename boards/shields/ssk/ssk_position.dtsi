@@ -1,4 +1,4 @@
-#include "position_map.dtsi"
+#include "ssk_position_map.dtsi"
 #include <physical_layouts.dtsi>
 
 / {
