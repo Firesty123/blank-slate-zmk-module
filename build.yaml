@@ -17,11 +17,13 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
+board: [ "nice_nano_v2" ]
+shield: [ "ssk_left", "ssk_right" ]
 include:
   - board: nice_nano_v2
-  - shield: ssk_left
+    shield: ssk_left
   - board: nice_nano_v2
-  - shield: ssk_right
+    shield: ssk_right
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: ssk_left_with_logging
