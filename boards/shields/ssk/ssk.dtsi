@@ -9,7 +9,7 @@
 #include "position.dtsi"
 
 &ssk_layout {
-    transform = &default_transform>;
+    transform = <&default_transform>;
 };
 
 / {
