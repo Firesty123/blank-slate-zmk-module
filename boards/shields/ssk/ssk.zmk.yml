@@ -1,14 +1,11 @@
 file_format: "1"
-id: corne
-name: Corne
+id: ssk
+name: SSK
 type: shield
-url: https://github.com/foostan/crkbd/
+url: https://github.com/Firesty123/blank-slate-zmk-module
 requires: [pro_micro]
-exposes: [i2c_oled]
 features:
   - keys
-  - display
-  - underglow
 siblings:
-  - corne_left
-  - corne_right
+  - ssk_left
+  - ssk_right
