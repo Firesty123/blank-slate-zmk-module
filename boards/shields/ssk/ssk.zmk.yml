@@ -6,6 +6,7 @@ url: https://github.com/Firesty123/blank-slate-zmk-module
 requires: [pro_micro]
 features:
   - keys
+  - studio
 siblings:
   - ssk_left
   - ssk_right
