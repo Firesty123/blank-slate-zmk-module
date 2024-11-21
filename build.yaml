@@ -23,8 +23,4 @@ include:
     snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
     shield: ssk_right
-  - board: nice_nano_v2
-    shield: settings_reset
-  - board: nice_nano_v2
-    shield: ssk_left
-    snippet: zmk-usb-logging
+
