@@ -19,13 +19,13 @@
 // | SHFT |  A  |  S  |  D  |  F  |  G  | LWR |   | RSE |  H  |  J  |  K  |  L  |  ;  | ENT  |
 // | CTRL |  Z  |  X  |  C  |  V  |  B  | ALT |   | ALT |  N  |  M  |  ,  |  .  |  /  | SHFT |
                         bindings = <
-   &kp ESC   &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp LGUI    RGUI &kp N6 &kp N7 &kp N8 &kp N9 &kp N0   &kp SQT
-   &kp TAB   &kp Q  &kp W  &kp E  &kp R  &kp T  &kp SPACE   &kp SPACE      &kp Y  &kp U  &kp I  &kp O  &kp P    &kp BSPC
-   &kp LSHFT &kp A  &kp S  &kp D  &kp F  &kp G  &mo 1       &mo 2          &kp H  &kp J  &kp K  &kp L  &kp SEMI &kp RET
-   &kp LCTRL &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LALT    &kp RALT       &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp LSHFT
+   &kp ESC   &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp LGUI    &kp RGUI  &kp N6 &kp N7 &kp N8    &kp N9  &kp N0   &kp SQT
+   &kp TAB   &kp Q  &kp W  &kp E  &kp R  &kp T  &kp SPACE   &kp SPACE &kp Y  &kp U  &kp I     &kp O   &kp P    &kp BSPC
+   &kp LSHFT &kp A  &kp S  &kp D  &kp F  &kp G  &mo 1       &mo 2     &kp H  &kp J  &kp K     &kp L   &kp SEMI &kp RET
+   &kp LCTRL &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LALT    &kp RALT  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp LSHFT
                         >;
                 };
-                
+
                 lower_layer {
 // -------------------------------------------------------------------------------------------
 // | BTCLA|  1  |  2  |  3  |  4  |  5  | GUI |   | GUI |  6  |  7  |  8  |  9  |  0  |      |
@@ -33,7 +33,7 @@
 // | SHFT |     |     |     |     |     |     |   |     |     | LFT | DWN | RGT |     | ENT  |
 // | CRTL |  Z  |  X  |  C  |  V  |  B  | ALT |   | ALT |     |     |     |     |     |      |
                         bindings = <
-   &kp BT_CLR_ALL &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp LGUI    &kp RGUI  &kp N6 &kp N7   &kp N8   &kp N9    &kp N0 &trans
+   &bt BT_CLR_ALL &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp LGUI    &kp RGUI  &kp N6 &kp N7   &kp N8   &kp N9    &kp N0 &trans
    &bt BT_CLR     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp SPACE   &kp SPACE &trans &trans   &kp UP   &trans    &trans &kp BSPC
    &kp LSHFT      &trans       &trans       &trans       &trans       &trans       &trans      &trans    &trans &kp LEFT &kp DOWN &kp RIGHT &trans &kp RET
    &kp LCTRL      &kp Z        &kp X        &kp C        &kp V        &kp B        &kp LALT    &kp RALT  &trans &trans   &trans   &trans    &trans &trans
